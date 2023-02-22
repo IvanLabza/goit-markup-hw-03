@@ -1,6 +1,13 @@
+/*--------------GLOBAL STILE----------------*/
+
 ul li{list-style: none;}
 a{text-decoration: none;}
 button{cursor: pointer;}
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+
 
 :root{
 --iris:#4D5AE5;
@@ -9,26 +16,38 @@ button{cursor: pointer;}
 --green:#31D0AA;
 --slate:#434455;
 --ligth-slate:#8E8F99;
---CORNFLOWER: #E7E9FC;
+--cornflower:#E7E9FC;
 --cloude:#F4F4FD;
 --write-title:#FFFFFF;
 }
 
 body{
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 color: var(--navi-blue);
+background-color:var(--write-title);
 }
 
 .link{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+
+.conteiner{
+width: 1158px;
+outline: 3px solid red;
+}
+
+/*-----------------HEDER-----------------*/
+
 .head {
 }
+
 .logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.3;
@@ -36,11 +55,21 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--iris);
 }
+
 .logo-second {
-    color: var(--navi-blue);
+color: var(--navi-blue);
+   
 }
+
 .head-navigation {
 }
+
+.head-navigation-list{
+margin-top: 24px;
+margin-bottom: 0;
+padding: 0;
+}
+
 .head-navigation-list-link {
 font-weight: 500;
 line-height:1.5;
@@ -49,85 +78,70 @@ color: var(--navi-blue);
 
 }
 
-.head-navigation-list-link:hover{
+.head-navigation-list-link:hover,.head-navigation-list-link:focus,.head-navigation-list-link:active{
 color: var(--ocean);
 }
 
-.head-navigation-list-link:focus{
-    color: var(--ocean);
-    }
-
 .contacts {
+}
+
+.contacts-list{
+margin-top: 24px;
+margin-bottom: 0;
+padding: 0;
 }
 
 .contacts-mail {
 }
 .contacts-mail-link {
-/* +11 (000) 111-11-11 */
 color:var(--slate);
 }
 
-.contacts-mail-link:hover {
+.contacts-mail-link:hover,:focus {
 color: var(--ocean);
 }
-    
-.contacts-mail-link:focus {
-  color: var(--ocean);
-}
-    
+     
 .contacts-tel {
 }
 .contacts-tel-link {
 color:var(--slate);
 }
 
-.contacts-tel-link:hover {
+.contacts-tel-link:hover,:focus {
 color: var(--ocean);
 }
 
-.contacts-tel-link:focus {
- color: var(--ocean);
-}
-
+/*------------------HERO-------------------*/
 
 .hero {
 background: var(--navi-blue);
 }
 .hero-header {
-/* Header 1 */
 font-weight: 700;
 font-size: 56px;
 line-height: 1.1;
-/* or 107% */
 text-align: center;
 letter-spacing: 0.02em;
 color:var(--write-title);
 }
 .hero-btn {
-/* IRIS */
 background: var(--iris);
-border-radius: 4px;
-}
-
-.hero-btn:hover{
-    background:var(--ocean);
-}
-.hero-btn:focus{
-    background:var(--ocean);
-}
-
-
-
-.hero-btn-text {
-/* Order Service */
-/* Button Text */
+font-family:'Roboto', sans-serif ;
 font-weight: 500;
 line-height: 1.5;
-/* identical to box height, or 150% */
 letter-spacing: 0.04em;
 color: var(--write-title);
-
 }
+
+.hero-btn:hover,.hero-btn:focus{
+background:var(--ocean);
+}
+
+
+
+
+/*-----------------ABOUT------------------*/
+
 .about {
 }
 .about-header {
@@ -147,50 +161,45 @@ text-decoration: none;
 }
 
 .about-list-header{
-/* Strategy */
 font-weight: 500;
 font-size: 20px;
 line-height:1.2;
-/* identical to box height, or 120% */
 letter-spacing: 0.02em;
 }
 .about-list-text {
-/* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
-/* Body */
 font-size: 16px;
 line-height: 1.5;
-/* or 150% */
 letter-spacing: 0.02em;
-/* SLATE */
 color:var(--slate);
 
 }
+
+/*-------------PRODUCT-------------*/
+
 .product {
 }
 .product-header {
-/* What are we doing */
 font-weight: 700;
 font-size: 36px;
 line-height:1.1;
-/* identical to box height, or 111% */
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .product-content-img {
 }
+
+/*---------------TEAMCART----------------*/
+
 .teamcart {
-/* CLOUD */
+
 
 background:var(--cloude);
 }
 .teamcart-header {
-/* Our Team */
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
-/* identical to box height, or 111% */
-
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -200,65 +209,55 @@ text-transform: capitalize;
 .teamcart-content-img {
 }
 .teamcart-content-subtitle {
-/* Header 3 */
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-/* identical to box height, or 120% */
 letter-spacing: 0.02em;
 }
 .teamcart-content-text{
-/* Body */
 font-size: 16px;
 line-height: 1.5;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
-/* SLATE */
 color: var(--slate);
 
 }
+
+/*------------------FOOTER---------------*/
 
 .ftr {
 background-color: var(--navi-blue);
 }
 .ftr-text {
-/* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
-/* Body */
 font-size: 16px;
 line-height: 1.5;
-/* or 150% */
-
 letter-spacing: 0.02em;
 
 /* CORNFLOWER */
 
-color: #E7E9FC;
+color:var(--cornflower);
 }
 .ftr span{
 color: var(--cloude);
 }
-
+/*-------------PORTFOLIO NAV---------------*/
 .main-nav {
 }
 .main-nav-elment {
 }
 .main-nav-elment-btn {
+font-family:'Roboto', sans-serif ;
+background-color:var(--cloude);
 font-weight: 500;
 line-height: 1.5;
 color: var(--iris);
 }
 
-.main-nav-elment-btn:hover{
+.main-nav-elment-btn:hover, .main-nav-elment-btn:focus{
 color: var(--write-title);
 background-color:var(--ocean);
 
 }
-
-.main-nav-elment-btn:focus{
-    color: var(--write-title);
-    background-color:var(--ocean);
-    
-    }
+/*-------------- PORTFOLIO CONTENT---------------*/
 .content {
 }
 .content-title {
@@ -274,19 +273,20 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .content-list {
-
 }
 .content-list-element {
 }
 .content-img {
 }
 .content-subtitle {
+color: var(--navi-blue);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .content-text {
+color: var(--slate);
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.02em;
