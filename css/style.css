@@ -3,9 +3,6 @@
 ul li{list-style: none;}
 a{text-decoration: none;}
 button{cursor: pointer;}
-h1,h2,h3,h4,h5,h6,p {
-  margin: 0;
-}
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
@@ -121,13 +118,17 @@ color: var(--ocean);
 
 .hero {
 background: var(--navi-blue);
+height: 600px;
 }
 .hero-header {
+width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color:var(--write-title);
+padding-top: 188px; 
+
 }
 .hero-btn {
 background: var(--iris);
