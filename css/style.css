@@ -6,6 +6,10 @@ button{cursor: pointer;}
 h1,h2,h3,h4,h5,h6,p {
   margin: 0;
 }
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
 
 
 
@@ -19,6 +23,7 @@ h1,h2,h3,h4,h5,h6,p {
 --cornflower:#E7E9FC;
 --cloude:#F4F4FD;
 --write-title:#FFFFFF;
+--mp-defolt: 120px;
 }
 
 body{
@@ -39,6 +44,7 @@ letter-spacing: 0.02em;
 .conteiner{
 width: 1158px;
 outline: 3px solid red;
+margin: 0 auto;
 }
 
 /*-----------------HEDER-----------------*/
@@ -120,7 +126,6 @@ background: var(--navi-blue);
 font-weight: 700;
 font-size: 56px;
 line-height: 1.1;
-text-align: center;
 letter-spacing: 0.02em;
 color:var(--write-title);
 }
@@ -131,6 +136,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--write-title);
+width: 169px;
+height: 56px;
+border: 0;
+
 }
 
 .hero-btn:hover,.hero-btn:focus{
@@ -143,6 +152,7 @@ background:var(--ocean);
 /*-----------------ABOUT------------------*/
 
 .about {
+margin-top:var(--mp-defolt);
 }
 .about-header {
 position: absolute;
@@ -158,6 +168,9 @@ overflow: hidden;
 }
 .about-list {
 text-decoration: none;
+margin-top: 0;
+margin-bottom: 0;
+padding: 0;
 }
 
 .about-list-header{
@@ -182,7 +195,6 @@ color:var(--slate);
 font-weight: 700;
 font-size: 36px;
 line-height:1.1;
-text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
@@ -192,15 +204,12 @@ text-transform: capitalize;
 /*---------------TEAMCART----------------*/
 
 .teamcart {
-
-
 background:var(--cloude);
 }
 .teamcart-header {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
-text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
