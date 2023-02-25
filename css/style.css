@@ -101,7 +101,9 @@ color: var(--navi-blue);
 
 }
 
-.head-navigation-list-link:hover,.head-navigation-list-link:focus,.head-navigation-list-link:active{
+.head-navigation-list-link:hover,
+.head-navigation-list-link:focus,
+.head-navigation-list-link:active{
 color: var(--ocean);
 }
 
@@ -126,7 +128,8 @@ margin-right: 70px;
 color:var(--slate);
 }
 
-.contacts-mail-link:hover,:focus {
+.contacts-mail-link:hover,
+.contacts-mail-link:focus {
 color: var(--ocean);
 
 }
@@ -135,7 +138,8 @@ color: var(--ocean);
 color:var(--slate);
 }
 
-.contacts-tel-link:hover,:focus {
+.contacts-tel-link:hover, 
+.contacts-tel-link:focus {
 color: var(--ocean);
 }
 
@@ -170,7 +174,8 @@ margin-top: 48px;
 margin-left: 480px;
 }
 
-.hero-btn:hover,.hero-btn:focus{
+.hero-btn:hover,
+.hero-btn:focus{
 background:var(--ocean);
 }
 
@@ -341,7 +346,8 @@ border-color: var(--cloude);
 
 
 
-.main-nav-elment-btn:hover, .main-nav-elment-btn:focus{
+.main-nav-elment-btn:hover, 
+.main-nav-elment-btn:focus{
 color: var(--write-title);
 background-color:var(--ocean);
 border-color: var(--ocean);
