@@ -204,13 +204,14 @@ overflow: hidden;
 .about-list-flex{
 display: flex;
 gap: 24px;
+margin-top: 0;
+margin-bottom: 0;
+padding: 0;
 }
 
 .about-list {
 text-decoration: none;
-margin-top: 0;
-margin-bottom: 0;
-padding: 0;
+
 }
 
 .about-list-header{
