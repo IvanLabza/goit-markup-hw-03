@@ -1,6 +1,10 @@
 /*--------------GLOBAL STILE----------------*/
 
-ul li{list-style: none;}
+ul li{
+list-style: none;
+margin: 0;
+padding: 0;
+}
 a{text-decoration: none;}
 button{cursor: pointer;}
 button::-moz-focus-inner {
@@ -9,7 +13,8 @@ button::-moz-focus-inner {
 }
 h1,h2,h3,p{
 margin: 0;
-}
+padding: 0;
+} 
 
 
 
@@ -156,7 +161,8 @@ color: var(--ocean);
 
 .hero {
 background: var(--navi-blue);
-height: 600px;
+padding-bottom: 204px;
+padding-top: 188px;
 
 }
 .hero-header {
@@ -168,7 +174,7 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 color:var(--write-title);
 margin: 0 auto;
-padding-top: 188px;
+
 }
 .hero-btn {
 background: var(--iris);
@@ -257,7 +263,7 @@ line-height:1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-left: 403px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 
 }
 .product-content-img {
@@ -286,7 +292,7 @@ font-size: 36px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-left: 483px;
+text-align: center;
 }
 .teamcart-content {
 border-radius: 0px 0px 4px 4px;
@@ -317,7 +323,8 @@ padding-bottom: 32px;
 /*------------------FOOTER---------------*/
 
 .ftr {
-height: 310px;
+padding-top:100px;
+padding-bottom: 100px;
 background-color: var(--navi-blue);
 }
 .ftr-text {
@@ -332,7 +339,7 @@ margin-top: 16px;
 .ftr span{
 display: inline-block;
 color: var(--cloude);
-padding-top: 100px;
+
 }
 /*-------------PORTFOLIO NAV---------------*/
 .main-nav {
