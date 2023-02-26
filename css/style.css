@@ -45,8 +45,10 @@ letter-spacing: 0.02em;
 
 .conteiner{
 width: 1158px;
-/* outline: 3px solid red;  */
+/* outline: 3px solid red;   */
 margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 /*-----------------HEDER-----------------*/
@@ -58,7 +60,7 @@ align-items: center;
 
 .head {
 border-bottom: 1px solid var(--cornflower);
-display: flex;
+
 }
 
 .logo {
@@ -69,8 +71,8 @@ line-height: 1.3;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--iris);
-margin-top: 24px;
-margin-bottom: 24px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .logo-second {
@@ -78,7 +80,10 @@ color: var(--navi-blue);
    
 }
 
-
+.head-flex{
+display: flex;
+align-items: center
+}
 
 .head-navigation {
 
@@ -87,13 +92,13 @@ color: var(--navi-blue);
 .head-navigation-list{
 display: flex;
 gap: 30px;
-margin-top: 24px;
-margin-bottom: 24px;
 padding: 0;
 margin-left: 76px;
 }
 
 .head-navigation-list-link {
+padding-top: 24px;
+padding-bottom: 24px;
 font-weight: 500;
 line-height:1.5;
 letter-spacing: 0.02em;
@@ -110,15 +115,15 @@ color: var(--ocean);
 .contacts {
 display: flex;
 gap: 40px;
+margin-left: auto;
 
 }
 
 .contacts-list{
-margin-top: 24px;
-margin-bottom: 24px;
 padding: 0;
 display: flex;
-padding-left: 332px;
+margin-left: auto;
+
 }
 
 .contacts-mail {
@@ -126,6 +131,8 @@ margin-right: 70px;
 }
 .contacts-mail-link {
 color:var(--slate);
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .contacts-mail-link:hover,
@@ -136,6 +143,8 @@ color: var(--ocean);
      
 .contacts-tel-link {
 color:var(--slate);
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .contacts-tel-link:hover, 
@@ -148,18 +157,18 @@ color: var(--ocean);
 .hero {
 background: var(--navi-blue);
 height: 600px;
-padding-top: 24px;
 
 }
 .hero-header {
+text-align: center;
 width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color:var(--write-title);
-padding-top: 188px; 
-margin-left: 316px;
+margin: 0 auto;
+padding-top: 188px;
 }
 .hero-btn {
 background: var(--iris);
@@ -185,6 +194,7 @@ background:var(--ocean);
 /*-----------------ABOUT------------------*/
 
 .about {
+padding-top: 120px;
 
 
 }
@@ -211,11 +221,8 @@ padding: 0;
 
 .about-list {
 text-decoration: none;
-
 }
-
 .about-list-header{
-padding-top: var(--mp-defolt);
 font-weight: 500;
 font-size: 20px;
 line-height:1.2;
@@ -230,6 +237,9 @@ margin-top: 8px;
 }
 
 /*-------------PRODUCT-------------*/
+.product{
+padding-top: var(--mp-defolt);
+}
 
 .product-list {
 padding: 0;
@@ -241,7 +251,6 @@ padding-bottom: 120px;
 
 }
 .product-header {
-padding-top: var(--mp-defolt);
 font-weight: 700;
 font-size: 36px;
 line-height:1.1;
@@ -258,6 +267,7 @@ padding-bottom: 72px;
 
 .teamcart {
 background:var(--cloude);
+padding-top: var(--mp-defolt);
 }
 
 .teamcart-list{
@@ -276,7 +286,6 @@ font-size: 36px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: var(--mp-defolt);
 margin-left: 483px;
 }
 .teamcart-content {
@@ -328,7 +337,6 @@ padding-top: 100px;
 /*-------------PORTFOLIO NAV---------------*/
 .main-nav {
   margin: 0;
-  padding-top: 96px;
   display: flex;
   justify-content: center;
   gap: 24px;;
@@ -358,6 +366,7 @@ border-color: var(--ocean);
 }
 /*-------------- PORTFOLIO CONTENT---------------*/
 .content {
+padding-top: 96px;
 }
 .content-title {
 position: absolute;
