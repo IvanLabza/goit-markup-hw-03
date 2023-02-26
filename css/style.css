@@ -393,7 +393,8 @@ padding-bottom: 120px;
 
 }
 .content-list-element {
-border-bottom: 1px solid #E7E9FC;
+border: 1px solid #E7E9FC;
+border-top: 0;
 }
 .content-img {
 }
