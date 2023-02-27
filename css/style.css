@@ -226,6 +226,7 @@ padding: 0;
 }
 
 .about-list {
+max-width: 264px;
 text-decoration: none;
 }
 .about-list-header{
@@ -256,8 +257,10 @@ flex-wrap: wrap;
 padding-bottom: 120px;
 margin: 0;
 
+
 }
 .product-header {
+
 font-weight: 700;
 font-size: 36px;
 line-height:1.1;
