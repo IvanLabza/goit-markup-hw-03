@@ -246,6 +246,7 @@ margin-top: 8px;
 /*-------------PRODUCT-------------*/
 .product{
 padding-top: var(--mp-defolt);
+padding-bottom: 120px;
 }
 
 .product-list {
@@ -254,7 +255,6 @@ display: flex;
 gap: 24px;
 justify-content: center;
 flex-wrap: wrap;
-padding-bottom: 120px;
 margin: 0;
 
 
